@@ -4,9 +4,9 @@ A comprehensive, modular software package for visualizing polyhedrons from the I
 
 ## 🎯 Overview
 
-This comprehensive system implements R. Buckminster Fuller's Synergetics geometry, specifically the **Isotropic Vector Matrix (IVM)** coordinate system that **"Abrogates, or makes defunct, Goedel's Incompleteness Theorem"** as described in the seminal work *xyz_clean.md*.
+This comprehensive system implements R. Buckminster Fuller's Synergetics geometry, as described in Noel Coughlin's paper "“Mapping the Vanishing and Reappearing Quanta Points of the IVM’s 6 Axis Metric Upon the Cartesian Coordinate System’s 3 x,y,z axis”. 
 
-### Core Concepts from xyz_clean.md
+### Core Concepts from the paper
 
 This package provides tools to visualize and understand:
 
@@ -34,9 +34,9 @@ This package provides tools to visualize and understand:
 - **[🎬 Animation Gallery](outputs/docs/index.html#animations)** - All animated visualizations
 
 ### 📄 Original Source Material
-- **[📜 xyz_clean.md](xyz_clean.md)** - Original paper with coordinate specifications
-- **[🔧 coordinate_extractor.py](coordinate_extractor.py)** - Original coordinate extraction tool
-- **[📊 ivm_coordinates_organized.json](ivm_coordinates_organized.json)** - Organized coordinate data
+- **[📜 Noel Coughlin's Paper (docs/original/xyz_clean.md)](docs/original/xyz_clean.md)** - "Mapping the Vanishing and Reappearing Quanta Points of the IVM's 6 Axis Metric Upon the Cartesian Coordinate System's 3 x,y,z axis"
+- **[🔧 coordinate_extractor.py](src/coordinate_extractor.py)** - Coordinate extraction tool
+- **[📊 ivm_coordinates_organized.json](configs/ivm_coordinates_organized.json)** - Organized coordinate data
 
 ## 🚀 Quick Start
 
@@ -152,8 +152,8 @@ ivm.create_comprehensive_output_package()
 - Interactive HTML interface for exploration
 - Comprehensive logging and error handling
 
-### ✅ **Complete xyz_clean.md Coverage**
-- All concepts from the original paper visualized
+### ✅ **Complete Coverage of Noel Coughlin's Paper**
+- All concepts from Coughlin's IVM coordinate paper visualized
 - Direct quotes and references throughout documentation
 - Mathematical accuracy verified through testing
 
@@ -228,19 +228,19 @@ This system serves as:
 
 ### For Researchers
 - **[🎓 Mathematical Foundation](outputs/docs/mathematical_foundation.md)** - Detailed derivations
-- **[📈 Original Paper](xyz_clean.md)** - Source material with coordinates
-- **[🧮 Coordinate Data](configs/ivm_coordinates.json)** - All coordinate specifications
+- **[📈 Noel Coughlin's Original Paper](docs/original/xyz_clean.md)** - "Mapping the Vanishing and Reappearing Quanta Points..."
+- **[🧮 Coordinate Data](configs/ivm_coordinates_organized.json)** - All coordinate specifications
 
 ## 🎯 Mission Accomplished
 
 The IVM Polyhedron Visualization System provides:
 
 1. **📁 Complete file-based output** - No popups, everything saved
-2. **🎬 Comprehensive animations** - All xyz_clean.md concepts animated
+2. **🎬 Comprehensive animations** - All concepts from Coughlin's paper animated
 3. **🌐 Interactive HTML interface** - Web-based exploration
 4. **📊 Mathematical visualization** - All relationships demonstrated
 5. **🔄 Transformation cycles** - Complete process demonstrations
 6. **🧪 Thoroughly tested** - 48 tests with 100% coverage
 7. **📚 Comprehensively documented** - All aspects explained
 
-**The system successfully transforms all theoretical concepts from xyz_clean.md into tangible, interactive visualizations that comprehensively demonstrate Synergetics geometry's ability to provide a complete, consistent coordinate system.**
+**The system successfully transforms all theoretical concepts from Noel Coughlin's paper into tangible, interactive visualizations that comprehensively demonstrate how Synergetics geometry provides a complete, consistent coordinate system that "Abrogates, or makes defunct, Goedel's Incompleteness Theorem."**

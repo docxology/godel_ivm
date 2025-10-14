@@ -4,7 +4,7 @@ Complete API documentation for the IVMCoordinates class.
 
 ## Overview
 
-The `IVMCoordinates` class manages all polyhedron coordinate data for the IVM system, providing access to coordinate specifications from the original *xyz_clean.md* paper.
+The `IVMCoordinates` class manages all polyhedron coordinate data for the IVM system, providing access to coordinate specifications from Noel Coughlin's paper "Mapping the Vanishing and Reappearing Quanta Points of the IVM's 6 Axis Metric Upon the Cartesian Coordinate System's 3 x,y,z axis".
 
 ## Constructor
 

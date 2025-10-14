@@ -137,7 +137,7 @@ outputs/
 
 ## 🔧 System Status
 
-- ✅ **All Core Concepts Implemented** - 6 main concepts from xyz_clean.md
+- ✅ **All Core Concepts Implemented** - 6 main concepts from Noel Coughlin's paper
 - ✅ **All Polyhedron Types Supported** - 6 polyhedron types with multiple frequencies
 - ✅ **Complete Visualization Suite** - 9 core + 8 additional + 8 animation visualizations
 - ✅ **Interactive HTML Interface** - Responsive web interface with 5 pages

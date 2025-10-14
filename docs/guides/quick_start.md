@@ -139,7 +139,7 @@ outputs/
 
 ### For Researchers
 1. **Mathematical foundation**: Read `docs/generated/mathematical_foundation.md`
-2. **Original coordinates**: Study `docs/original/xyz_clean.md`
+2. **Original coordinates**: Study Noel Coughlin's paper at `docs/original/xyz_clean.md`
 3. **Validation testing**: Review `docs/generated/test_coverage.md`
 
 ## 🆘 Need Help?

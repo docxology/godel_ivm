@@ -161,7 +161,7 @@ FileNotFoundError: [Errno 2] No such file or directory: 'configs/ivm_coordinates
 1. **Verify File Existence**
    ```bash
    ls -la configs/ivm_coordinates.json
-   ls -la docs/original/xyz_clean.md
+   ls -la docs/original/xyz_clean.md  # Noel Coughlin's coordinate paper
    ```
 
 2. **Create Missing Directories**

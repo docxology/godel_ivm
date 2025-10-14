@@ -1,6 +1,6 @@
 # IVM Polyhedron Visualization System - Complete Documentation
 
-This comprehensive documentation covers all aspects of the Isotropic Vector Matrix (IVM) Polyhedron Visualization System, implementing R. Buckminster Fuller's Synergetics geometry.
+This comprehensive documentation covers all aspects of the Isotropic Vector Matrix (IVM) Polyhedron Visualization System, implementing R. Buckminster Fuller's Synergetics geometry as extended and applied by **Noel Coughlin** in his paper **"Mapping the Vanishing and Reappearing Quanta Points of the IVM's 6 Axis Metric Upon the Cartesian Coordinate System's 3 x,y,z axis"**.
 
 ## 📚 Table of Contents
 
@@ -16,7 +16,7 @@ This comprehensive documentation covers all aspects of the Isotropic Vector Matr
 
 ## 🎯 Overview
 
-The IVM Polyhedron Visualization System provides a complete implementation of R. Buckminster Fuller's Synergetics coordinate system, enabling visualization and analysis of polyhedrons in the Isotropic Vector Matrix.
+The IVM Polyhedron Visualization System provides a complete implementation of R. Buckminster Fuller's Synergetics coordinate system as specified in Noel Coughlin's coordinate mapping paper, enabling visualization and analysis of polyhedrons in the Isotropic Vector Matrix.
 
 ### Core Features
 
@@ -317,12 +317,12 @@ This system serves as:
 1. **Learning Tool**: Interactive exploration of Synergetics geometry
 2. **Research Platform**: Mathematical validation of IVM concepts
 3. **Visualization Reference**: Complete visual documentation
-4. **Educational Resource**: Direct implementation of xyz_clean.md concepts
+4. **Educational Resource**: Direct implementation of Noel Coughlin's IVM coordinate concepts
 5. **Testing Framework**: Rigorous validation of geometric principles
 
 ## 🔗 Related Resources
 
-- **[📜 Original Paper](original/xyz_clean.md)**: Source material and theoretical foundation
+- **[📜 Noel Coughlin's Original Paper](../original/xyz_clean.md)**: "Mapping the Vanishing and Reappearing Quanta Points..." - Source material and theoretical foundation
 - **[🧮 Coordinate Data](configs/ivm_coordinates.json)**: Complete coordinate specifications
 - **[🧪 Test Suite](tests/)**: Comprehensive validation framework
 - **[📖 API Reference](api/)**: Complete API documentation

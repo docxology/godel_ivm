@@ -1,6 +1,6 @@
 # IVM Polyhedron Visualization System - Documentation Hub
 
-This is the comprehensive documentation hub for the IVM Polyhedron Visualization System, implementing R. Buckminster Fuller's Synergetics geometry.
+This is the comprehensive documentation hub for the IVM Polyhedron Visualization System, implementing R. Buckminster Fuller's Synergetics geometry as extended and applied by **Noel Coughlin** in his paper **"Mapping the Vanishing and Reappearing Quanta Points of the IVM's 6 Axis Metric Upon the Cartesian Coordinate System's 3 x,y,z axis"**.
 
 ## 📚 Documentation Structure
 
@@ -8,7 +8,7 @@ This is the comprehensive documentation hub for the IVM Polyhedron Visualization
 docs/
 ├── README.md                    # This hub document
 ├── original/                    # Original source materials
-│   ├── xyz_clean.md            # Original paper with coordinate specifications
+│   ├── xyz_clean.md            # Noel Coughlin's paper with IVM coordinate specifications
 │   └── x,y,z Coordinates for IVM.pdf  # Original coordinate diagram
 ├── generated/                   # Auto-generated documentation
 │   ├── README.md               # Complete system documentation
@@ -41,13 +41,13 @@ docs/
 - **[📈 Mathematical Foundation](generated/mathematical_foundation.md)** - Technical details
 
 ### For Researchers
-- **[📜 Original Paper](original/xyz_clean.md)** - Source material
+- **[📜 Noel Coughlin's Original Paper](original/xyz_clean.md)** - "Mapping the Vanishing and Reappearing Quanta Points..."
 - **[🎓 Mathematical Derivations](generated/mathematical_foundation.md)** - Technical foundation
 - **[🧮 Coordinate Data](configs/ivm_coordinates.json)** - All coordinate specifications
 
 ## 🎨 System Features
 
-### Core Concepts from xyz_clean.md
+### Core Concepts from Noel Coughlin's Paper
 - **🔄 Sphere-to-Vector Transformation**: Quantum point transformation process
 - **🏗️ Omni-Concentric Hierarchy**: Nested polyhedron relationships
 - **🌌 Phase Space Transformations**: Geometric phase space evolution
@@ -120,7 +120,7 @@ This system provides:
 1. **📖 Learning Tool** - Interactive exploration of Synergetics geometry
 2. **🔬 Research Platform** - Mathematical validation of IVM concepts
 3. **🎨 Visualization Reference** - Complete visual documentation
-4. **📚 Educational Resource** - Direct implementation of xyz_clean.md concepts
+4. **📚 Educational Resource** - Direct implementation of Noel Coughlin's IVM coordinate concepts
 5. **🧪 Testing Framework** - Rigorous validation of geometric principles
 
 ## 🔗 Key Links
@@ -132,7 +132,7 @@ This system provides:
 - **[🧪 Test Coverage](generated/test_coverage.md)**
 
 ### Original Materials
-- **[📜 Original Paper](original/xyz_clean.md)**
+- **[📜 Noel Coughlin's Original Paper](original/xyz_clean.md)** - Complete paper with all IVM coordinate specifications
 - **[📊 Coordinate Data](configs/ivm_coordinates.json)**
 
 ### Interactive Interfaces

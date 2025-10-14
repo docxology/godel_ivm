@@ -67,7 +67,7 @@ viz.create_coordinate_documentation('custom_docs')
 
 ### `create_comprehensive_visualizations()`
 
-Create all conceptual visualizations from xyz_clean.md.
+Create all conceptual visualizations from Noel Coughlin's IVM coordinate paper.
 
 ### `create_comprehensive_animations()`
 

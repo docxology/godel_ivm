@@ -93,7 +93,7 @@ ivm.create_documentation('custom_docs')
 
 #### `create_comprehensive_visualizations() -> None`
 
-Create all conceptual visualizations from xyz_clean.md.
+Create all conceptual visualizations from Noel Coughlin's IVM coordinate paper.
 
 **Example:**
 ```python
@@ -163,7 +163,7 @@ ivm.list_available_data()
 
 ## 🧮 IVMCoordinates
 
-Manages all polyhedron coordinate data from xyz_clean.md specifications.
+Manages all polyhedron coordinate data from Noel Coughlin's IVM coordinate specifications.
 
 ### Constructor
 ```python
@@ -313,7 +313,7 @@ viz.create_coordinate_documentation('my_docs')
 
 #### `create_comprehensive_visualizations() -> None`
 
-Create all conceptual visualizations from xyz_clean.md.
+Create all conceptual visualizations from Noel Coughlin's IVM coordinate paper.
 
 **Example:**
 ```python

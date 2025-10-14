@@ -76,7 +76,7 @@ ivm.create_documentation('custom_docs')  # Custom directory
 
 ### `create_comprehensive_visualizations()`
 
-Create all conceptual visualizations from xyz_clean.md.
+Create all conceptual visualizations from Noel Coughlin's IVM coordinate paper.
 
 ```python
 ivm.create_comprehensive_visualizations()
