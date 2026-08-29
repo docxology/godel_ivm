@@ -307,9 +307,9 @@ export IVM_DEBUG=1
 ## Getting Help
 
 ### Documentation
-- **[📖 Complete Documentation](outputs/docs/README.md)**
-- **[🔧 API Reference](docs/api/)**
-- **[🧪 Test Coverage](docs/generated/test_coverage.md)**
+- **[📖 Complete Documentation](../../outputs/docs/output_summary.md)**
+- **[🔧 API Reference](../api/)**
+- **[🧪 Test Coverage](../generated/test_coverage.md)**
 
 ### Support
 - Check the troubleshooting section above

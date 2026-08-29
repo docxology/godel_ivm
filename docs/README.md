@@ -33,7 +33,7 @@ docs/
 ### For Users
 - **[🚀 Quick Start](guides/quick_start.md)** - Get started in 5 minutes
 - **[📖 Complete Documentation](generated/README.md)** - Full system documentation
-- **[🎨 Interactive Interface](outputs/docs/index.html)** - Web-based exploration
+- **[🎨 Interactive Interface](../outputs/docs/index.html)** - Web-based exploration
 
 ### For Developers
 - **[🔧 API Reference](api/)** - Complete API documentation
@@ -43,7 +43,7 @@ docs/
 ### For Researchers
 - **[📜 Noel Coughlin's Original Paper](original/xyz_clean.md)** - "Mapping the Vanishing and Reappearing Quanta Points..."
 - **[🎓 Mathematical Derivations](generated/mathematical_foundation.md)** - Technical foundation
-- **[🧮 Coordinate Data](configs/ivm_coordinates.json)** - All coordinate specifications
+- **[🧮 Coordinate Data](../configs/ivm_coordinates.json)** - All coordinate specifications
 
 ## 🎨 System Features
 
@@ -133,15 +133,15 @@ This system provides:
 
 ### Original Materials
 - **[📜 Noel Coughlin's Original Paper](original/xyz_clean.md)** - Complete paper with all IVM coordinate specifications
-- **[📊 Coordinate Data](configs/ivm_coordinates.json)**
+- **[📊 Coordinate Data](../configs/ivm_coordinates.json)**
 
 ### Interactive Interfaces
-- **[🎯 Main Interface](outputs/docs/index.html)**
-- **[🧊 Polyhedron Explorer](outputs/docs/polyhedron_viewer.html)**
+- **[🎯 Main Interface](../outputs/docs/index.html)**
+- **[🧊 Polyhedron Explorer](../outputs/docs/polyhedron_viewer.html)**
 
 ### Development
-- **[🔧 Source Code](src/)**
-- **[🧪 Test Suite](tests/)**
+- **[🔧 Source Code](../src/)**
+- **[🧪 Test Suite](../tests/)**
 - **[📈 Performance](generated/README.md#performance-considerations)**
 
 ---

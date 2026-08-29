@@ -581,10 +581,10 @@ for poly in coords.list_polyhedrons():
 ## 📞 Getting Help
 
 ### Documentation Resources
-- **[📖 Complete Documentation](outputs/docs/README.md)**: Full system documentation
-- **[🔧 API Reference](docs/api/)**: Complete API documentation
-- **[🧪 Test Coverage](docs/generated/test_coverage.md)**: Testing information
-- **[📈 Mathematical Foundation](docs/generated/mathematical_foundation.md)**: Technical details
+- **[📖 Complete Documentation](../../outputs/docs/output_summary.md)**: Full system documentation
+- **[🔧 API Reference](../api/)**: Complete API documentation
+- **[🧪 Test Coverage](../generated/test_coverage.md)**: Testing information
+- **[📈 Mathematical Foundation](../generated/mathematical_foundation.md)**: Technical details
 
 ### Community Support
 - **GitHub Issues**: Report bugs and request features

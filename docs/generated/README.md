@@ -323,9 +323,9 @@ This system serves as:
 ## 🔗 Related Resources
 
 - **[📜 Noel Coughlin's Original Paper](../original/xyz_clean.md)**: "Mapping the Vanishing and Reappearing Quanta Points..." - Source material and theoretical foundation
-- **[🧮 Coordinate Data](configs/ivm_coordinates.json)**: Complete coordinate specifications
-- **[🧪 Test Suite](tests/)**: Comprehensive validation framework
-- **[📖 API Reference](api/)**: Complete API documentation
+- **[🧮 Coordinate Data](../../configs/ivm_coordinates.json)**: Complete coordinate specifications
+- **[🧪 Test Suite](../../tests/)**: Comprehensive validation framework
+- **[📖 API Reference](../api/)**: Complete API documentation
 
 ---
 
