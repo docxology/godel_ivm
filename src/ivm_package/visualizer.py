@@ -2398,26 +2398,25 @@ This document provides a complete inventory of all generated files and their des
 
 ```
 outputs/
-├── plots/                    # Static PNG visualizations (40+ files)
-│   ├── core_concepts/       # 9 main concept visualizations
-│   ├── animations/          # 8 animation visualizations
-│   ├── additional/          # 8 advanced visualizations
-│   ├── polyhedrons/         # Individual polyhedron plots
-│   └── comparisons/         # Comparison charts
-├── animations/               # Animation output files (8+ files)
-└── docs/                     # Interactive HTML interface (5 files)
+├── plots/                    # Static PNG visualizations (36 files, flat)
+├── animations/               # Animation output files (8 GIF files)
+└── docs/                     # Interactive HTML interface (5 HTML files)
     ├── index.html           # Main overview page
-    ├── concept_pages/       # Individual concept explanations
-    └── tools/               # Interactive tools
+    ├── sphere_vector.html   # Concept page
+    ├── omni_concentric.html # Concept page
+    ├── phase_space.html     # Concept page
+    ├── polyhedron_viewer.html # Interactive tool
+    └── output_summary.md    # This inventory
 ```
 
 ## 🎯 Quality Metrics
 
 ### File Generation Summary
-- **Total Files Generated**: 60+
-- **Static Visualizations**: 40+ PNG files
+- **Total Files Generated**: 100+ (tracked in this repository)
+- **Static Visualizations**: 36 PNG files
+- **Animated Visualizations**: 8 GIF files
 - **Interactive Interfaces**: 5 HTML files
-- **Documentation**: 16 comprehensive documents
+- **Documentation**: 24 Markdown documents under `docs/`
 - **Test Coverage**: 16 passing tests (100% success rate)
 
 ### Technical Specifications
@@ -2435,16 +2434,16 @@ outputs/
 4. **Review Visualizations**: All PNG files in `outputs/plots/`
 
 ### For Researchers
-1. **Mathematical Foundation**: `outputs/docs/mathematical_foundation.md`
-2. **API Reference**: `outputs/docs/api_reference.md`
+1. **Mathematical Foundation**: `docs/generated/mathematical_foundation.md`
+2. **API Reference**: `docs/generated/api_reference.md`
 3. **Original Coordinates**: `configs/ivm_coordinates.json`
-4. **Test Validation**: `outputs/docs/test_coverage.md`
+4. **Test Validation**: `docs/generated/test_coverage.md`
 
 ### For Developers
 1. **Source Code**: `src/` directory
 2. **Test Suite**: `tests/` directory
-3. **Development Guide**: `outputs/docs/development.md`
-4. **Usage Examples**: `outputs/docs/usage.md`
+3. **Development Guide**: `docs/guides/development.md`
+4. **Usage Examples**: `docs/guides/usage.md`
 
 ## 🔧 System Status
 
@@ -2452,7 +2451,7 @@ outputs/
 - ✅ **All Polyhedron Types Supported** - 6 polyhedron types with multiple frequencies
 - ✅ **Complete Visualization Suite** - 9 core + 8 additional + 8 animation visualizations
 - ✅ **Interactive HTML Interface** - Responsive web interface with 5 pages
-- ✅ **Comprehensive Documentation** - 16 documentation files covering all aspects
+- ✅ **Comprehensive Documentation** - 24 Markdown documents under `docs/`
 - ✅ **Test Suite Passing** - 16 tests with 100% success rate
 - ✅ **No Popups** - All visualizations saved to organized file structure
 

@@ -9,7 +9,8 @@ docs/
 ├── README.md                    # This hub document
 ├── original/                    # Original source materials
 │   ├── xyz_clean.md            # Noel Coughlin's paper with IVM coordinate specifications
-│   └── x,y,z Coordinates for IVM.pdf  # Original coordinate diagram
+│   ├── MappingVanishingIVM_Coughlin_2025.pdf  # Original paper PDF
+│   └── extracted_coordinates.json  # Coordinates extracted from the paper
 ├── generated/                   # Auto-generated documentation
 │   ├── README.md               # Complete system documentation
 │   ├── api_reference.md        # Complete API documentation
@@ -55,7 +56,7 @@ docs/
 - **🎯 Godel Abrogation**: Complete geometry vs axiomatic limitations
 
 ### Visualizations Generated
-- **40 PNG static visualizations** - All polyhedrons at multiple frequencies
+- **36 PNG static visualizations** - All polyhedrons at multiple frequencies
 - **8 GIF animated visualizations** - Dynamic transformation processes
 - **Interactive HTML interface** - Web-based exploration
 - **Comprehensive documentation** - Technical and user guides

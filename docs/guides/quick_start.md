@@ -15,7 +15,7 @@ pip install numpy matplotlib
 
 ### Download the System
 ```bash
-git clone https://github.com/your-repo/godel_ivm.git
+git clone https://github.com/docxology/godel_ivm.git
 cd godel_ivm
 ```
 
@@ -28,7 +28,7 @@ python src/ivm_system.py comprehensive
 ```
 
 This single command creates:
-- **40 PNG visualizations** of all polyhedrons
+- **36 PNG visualizations** of all polyhedrons
 - **8 GIF animations** showing transformations
 - **Interactive HTML interface** for exploration
 - **Complete documentation** in multiple formats
@@ -42,7 +42,7 @@ open outputs/docs/index.html
 open outputs/animations/sphere_vector_transformation.gif
 
 # Read documentation
-open outputs/docs/README.md
+open docs/generated/README.md
 ```
 
 ## 🎨 What You Get
@@ -111,7 +111,7 @@ This system demonstrates how **Synergetics geometry provides a complete coordina
 
 ```
 outputs/
-├── plots/                    # 40 PNG visualizations
+├── plots/                    # 36 PNG visualizations
 │   ├── tetrahedron_f0.png
 │   ├── octahedron_f1.png
 │   └── comparison charts
@@ -130,7 +130,7 @@ outputs/
 ### For Users
 1. **Explore interactively**: Open `outputs/docs/index.html`
 2. **Watch animations**: View the GIF files in `outputs/animations/`
-3. **Read documentation**: Check `outputs/docs/README.md`
+3. **Read documentation**: Check `docs/generated/README.md`
 
 ### For Developers
 1. **Study the API**: Check `docs/api/` for complete reference
@@ -144,7 +144,7 @@ outputs/
 
 ## 🆘 Need Help?
 
-- **📖 Complete Documentation**: `outputs/docs/README.md`
+- **📖 Complete Documentation**: `docs/generated/README.md`
 - **🔧 API Reference**: `docs/api/`
 - **🧪 Test Coverage**: `docs/generated/test_coverage.md`
 - **📈 Mathematical Foundation**: `docs/generated/mathematical_foundation.md`

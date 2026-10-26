@@ -219,10 +219,10 @@ Large file sizes, poor image quality, or generation failures
    ivm.animate_transformation('tetrahedron', '2', frames=45)  # Medium quality
    ```
 
-2. **Check ImageMagick Installation**
+2. **Check Pillow Installation**
    ```bash
-   # Required for GIF generation
-   which convert  # Should find ImageMagick
+   # GIFs are written with matplotlib's Pillow writer
+   python -c "import PIL; print(PIL.__version__)"
    ```
 
 3. **Alternative Backends**

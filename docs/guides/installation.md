@@ -20,7 +20,7 @@ pip install numpy matplotlib
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-repo/godel_ivm.git
+git clone https://github.com/docxology/godel_ivm.git
 cd godel_ivm
 
 # Install dependencies
@@ -36,13 +36,6 @@ python src/ivm_system.py --help
 2. Extract to desired location
 3. Navigate to the directory
 4. Install dependencies: `pip install numpy matplotlib`
-
-### Method 3: Python Package (Future)
-
-```bash
-# When available as PyPI package
-pip install ivm-polyhedron-system
-```
 
 ## Directory Structure
 
@@ -130,7 +123,7 @@ ivm = IVMSystem()  # Will use custom config
 python src/ivm_system.py comprehensive
 
 # This creates:
-# - 40 PNG visualizations
+# - 36 PNG visualizations
 # - 8 GIF animations
 # - Interactive HTML interface
 # - Complete documentation
@@ -250,11 +243,11 @@ python src/ivm_system.py comprehensive
 
 ```bash
 # Clone repository
-git clone https://github.com/your-repo/godel_ivm.git
+git clone https://github.com/docxology/godel_ivm.git
 cd godel_ivm
 
-# Install in development mode
-pip install -e .
+# No packaging metadata is committed; run from the repo root
+# (or add src/ to PYTHONPATH) instead of pip install -e .
 
 # Run tests
 python -m pytest tests/
@@ -268,9 +261,9 @@ python src/ivm_system.py test
 #### Visual Studio Code
 ```json
 {
-    "python.pythonPath": "src",
-    "python.linting.enabled": true,
-    "python.testing.pytestEnabled": true
+    "python.defaultInterpreterPath": "python3",
+    "python.testing.pytestEnabled": true,
+    "python.testing.pytestArgs": ["tests"]
 }
 ```
 

@@ -22,10 +22,10 @@ This package provides tools to visualize and understand:
 ## 📂 Documentation Structure
 
 ### 📚 Complete Documentation
-- **[📖 Full Documentation](outputs/docs/README.md)** - Comprehensive system documentation
-- **[🎓 Mathematical Foundation](outputs/docs/mathematical_foundation.md)** - Detailed mathematical explanations
-- **[🔬 API Reference](outputs/docs/api_reference.md)** - Complete API documentation
-- **[🧪 Test Coverage](outputs/docs/test_coverage.md)** - Detailed test specifications
+- **[📖 Full Documentation](docs/generated/README.md)** - Comprehensive system documentation
+- **[🎓 Mathematical Foundation](docs/generated/mathematical_foundation.md)** - Detailed mathematical explanations
+- **[🔬 API Reference](docs/generated/api_reference.md)** - Complete API documentation
+- **[🧪 Test Coverage](docs/generated/test_coverage.md)** - Detailed test specifications
 - **[📊 Output Summary](outputs/docs/output_summary.md)** - Complete file listing and descriptions
 
 ### 🌐 Interactive Interfaces
@@ -46,7 +46,7 @@ This package provides tools to visualize and understand:
 pip install numpy matplotlib
 
 # Clone or download the repository
-git clone https://github.com/your-repo/godel_ivm.git
+git clone https://github.com/docxology/godel_ivm.git
 cd godel_ivm
 ```
 
@@ -137,7 +137,7 @@ ivm.create_comprehensive_output_package()
 - **Animation gallery** with thumbnails and descriptions
 - **Responsive design** for all devices and screen sizes
 
-### 📚 Documentation (16 files)
+### 📚 Documentation (24 files under `docs/`)
 - **Complete API reference** for all modules and methods
 - **Mathematical derivations** with detailed formulas and proofs
 - **Usage tutorials** with step-by-step examples
@@ -159,7 +159,7 @@ ivm.create_comprehensive_output_package()
 
 ### ✅ **Professional Architecture**
 - Modular package structure with proper imports
-- Comprehensive test suite (12 test classes)
+- Comprehensive test suite (4 test classes)
 - Configuration-driven output management
 - Extensible design for future enhancements
 
@@ -173,34 +173,32 @@ ivm.create_comprehensive_output_package()
 
 ```
 outputs/
-├── plots/                    # 40 PNG visualization files
+├── plots/                    # 36 PNG visualization files
 │   ├── polyhedron plots
 │   ├── comparison charts
-│   └── 3D surface plots
+│   └── concept and vector diagrams
 ├── animations/               # 8 GIF animation files
 │   ├── sphere_vector_transformation.gif
 │   ├── omni_concentric_hierarchy.gif
 │   ├── phase_space_transformations.gif
 │   └── all transformation animations
-└── docs/                     # 16 documentation files
+└── docs/                     # 5 HTML pages + output_summary.md
     ├── index.html           # Main interactive interface
     ├── polyhedron_viewer.html # Interactive explorer
-    ├── README.md            # Complete documentation
-    ├── api_reference.md     # API documentation
-    └── all concept explanations
+    └── concept pages (sphere_vector, omni_concentric, phase_space)
 ```
 
 ## 🧪 Testing & Quality Assurance
 
 ### Comprehensive Test Suite
-- **48 total tests** across 12 test classes
+- **16 tests** across 4 test classes
 - **Mathematical validation** of coordinate properties
 - **Performance testing** for large datasets
 - **Integration testing** between all components
 - **Error handling** and edge case coverage
 
 ### Quality Metrics
-- **100% test coverage** of core functionality
+- **All 16 tests passing** for core functionality
 - **Mathematical accuracy** verified through automated tests
 - **Performance benchmarks** for optimization
 - **Error handling** with graceful degradation
@@ -219,15 +217,15 @@ This system serves as:
 ### For Users
 - **[🎯 Main Interface](outputs/docs/index.html)** - Start here for overview
 - **[🧊 Polyhedron Explorer](outputs/docs/polyhedron_viewer.html)** - Interactive exploration
-- **[📚 Complete Documentation](outputs/docs/README.md)** - Detailed technical info
+- **[📚 Complete Documentation](docs/generated/README.md)** - Detailed technical info
 
 ### For Developers
 - **[🔧 Source Code](src/)** - Modular package implementation
 - **[🧪 Test Suite](tests/)** - Comprehensive test coverage
-- **[📊 API Reference](outputs/docs/api_reference.md)** - Complete API documentation
+- **[📊 API Reference](docs/generated/api_reference.md)** - Complete API documentation
 
 ### For Researchers
-- **[🎓 Mathematical Foundation](outputs/docs/mathematical_foundation.md)** - Detailed derivations
+- **[🎓 Mathematical Foundation](docs/generated/mathematical_foundation.md)** - Detailed derivations
 - **[📈 Noel Coughlin's Original Paper](docs/original/xyz_clean.md)** - "Mapping the Vanishing and Reappearing Quanta Points..."
 - **[🧮 Coordinate Data](configs/ivm_coordinates_organized.json)** - All coordinate specifications
 
@@ -240,7 +238,7 @@ The IVM Polyhedron Visualization System provides:
 3. **🌐 Interactive HTML interface** - Web-based exploration
 4. **📊 Mathematical visualization** - All relationships demonstrated
 5. **🔄 Transformation cycles** - Complete process demonstrations
-6. **🧪 Thoroughly tested** - 48 tests with 100% coverage
+6. **🧪 Thoroughly tested** - 16 tests, all passing
 7. **📚 Comprehensively documented** - All aspects explained
 
 **The system successfully transforms all theoretical concepts from Noel Coughlin's paper into tangible, interactive visualizations that comprehensively demonstrate how Synergetics geometry provides a complete, consistent coordinate system that "Abrogates, or makes defunct, Goedel's Incompleteness Theorem."**

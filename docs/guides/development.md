@@ -42,11 +42,11 @@ pip install numpy matplotlib pytest black flake8 mypy
 ### Repository Setup
 ```bash
 # Clone repository
-git clone https://github.com/your-repo/godel_ivm.git
+git clone https://github.com/docxology/godel_ivm.git
 cd godel_ivm
 
-# Install in development mode
-pip install -e .
+# No packaging metadata is committed; run from the repo root
+# (or add src/ to PYTHONPATH) instead of pip install -e .
 
 # Run tests
 python -m pytest tests/
@@ -57,13 +57,12 @@ python -m pytest tests/
 #### Visual Studio Code
 ```json
 {
-    "python.pythonPath": "src",
-    "python.linting.enabled": true,
-    "python.linting.pylintEnabled": false,
-    "python.linting.flake8Enabled": true,
+    "python.defaultInterpreterPath": "python3",
     "python.testing.pytestEnabled": true,
     "python.testing.pytestArgs": ["tests"],
-    "python.formatting.provider": "black"
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    }
 }
 ```
 
@@ -94,16 +93,9 @@ mypy src/ tests/
 ```
 
 ### Pre-commit Hooks
-```bash
-# Install pre-commit
-pip install pre-commit
 
-# Install hooks
-pre-commit install
-
-# Run all checks
-pre-commit run --all-files
-```
+No pre-commit configuration is committed, so `pre-commit install` has nothing to
+run; invoke black/flake8/mypy directly (see above) before sending a change.
 
 ## Adding New Features
 
@@ -444,13 +436,12 @@ twine upload dist/*
 
 ### Docker Deployment
 ```dockerfile
-FROM python:3.8-slim
+FROM python:3.13-slim
 
 WORKDIR /app
 COPY . .
 
 RUN pip install numpy matplotlib
-RUN pip install -e .
 
 CMD ["python", "src/ivm_system.py", "comprehensive"]
 ```

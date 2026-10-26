@@ -383,30 +383,25 @@ OK
 ### Automated Testing
 
 #### Pre-commit Hooks
-```bash
-# Install pre-commit
-pip install pre-commit
-pre-commit install
 
-# Run all checks
-pre-commit run --all-files
-```
+No pre-commit configuration is committed to this repository, so tests are run
+directly: `python -m pytest tests/ -v`.
 
 #### CI/CD Pipeline
 ```yaml
-# .github/workflows/tests.yml
+# Example only - no workflow is committed to this repository
 name: Tests
 on: [push, pull_request]
 
 jobs:
   test:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v5
     - name: Set up Python
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v6
       with:
-        python-version: '3.8'
+        python-version: '3.13'
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
