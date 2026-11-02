@@ -79,7 +79,7 @@ _tkinter.TclError: no display name and no $DISPLAY environment variable
 
 3. **Use Virtual Display**
    ```bash
-   pip install xvfb
+   sudo apt-get install xvfb        # Ubuntu/Debian
    xvfb-run -a python src/ivm_system.py plot tetrahedron 1
    ```
 
