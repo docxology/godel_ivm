@@ -242,3 +242,7 @@ The IVM Polyhedron Visualization System provides:
 7. **📚 Comprehensively documented** - All aspects explained
 
 **The system successfully transforms all theoretical concepts from Noel Coughlin's paper into tangible, interactive visualizations that comprehensively demonstrate how Synergetics geometry provides a complete, consistent coordinate system that "Abrogates, or makes defunct, Goedel's Incompleteness Theorem."**
+
+## License
+
+Released under the [MIT License](LICENSE).
