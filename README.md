@@ -1,5 +1,13 @@
 # IVM Polyhedron Visualization System
 
+<p align="center">
+  <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-blue"></a>
+</p>
+
+<p align="center">
+  <img src="outputs/animations/vector_equilibrium_formation.gif" alt="Animated 3D scatter plot building the vector equilibrium frame by frame: cube vertices, octahedron vertices and cuboctahedron points in IVM coordinates." width="520">
+</p>
+
 A comprehensive, modular software package for visualizing polyhedrons from the Isotropic Vector Matrix (IVM) coordinate system, based on R. Buckminster Fuller's Synergetics geometry.
 
 ## 🎯 Overview
