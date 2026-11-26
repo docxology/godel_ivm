@@ -11,3 +11,6 @@ dist/
 
 # macOS
 .DS_Store
+
+# Local manuscript replay
+/output/

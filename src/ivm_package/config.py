@@ -68,7 +68,7 @@ class IVMConfig:
     def _load_constants(self):
         """Load mathematical constants"""
         self.constants = {
-            'golden_ratio': 1.414213562,
+            'golden_ratio': (1.0 + 5.0 ** 0.5) / 2.0,
             'sqrt_2': 1.414213562,
             'sqrt_3': 1.732050808,
             'sqrt_1_2': 0.707106781,

@@ -118,7 +118,7 @@ print(config.output_paths.plots_dir)  # "outputs/plots"
 print(config.output_paths.animations_dir)  # "outputs/animations"
 
 # Access mathematical constants
-print(config.constants['golden_ratio'])  # 1.414213562
+print(config.constants['golden_ratio'])  # 1.618033988749895
 ```
 
 ### Custom Configuration
