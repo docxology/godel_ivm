@@ -30,7 +30,7 @@ Noel Coughlin's paper extends Synergetics by:
 2. **Quantum Visualization**: Explaining how spheres transform into vectors and vice versa
 3. **Multiple Orientations**: Providing both "First Orientation" and "Correct Orientation" coordinate sets
 4. **Frequency Specifications**: Detailing coordinates for multiple frequencies (F0 through F12) of six polyhedrons
-5. **Gödel Abrogation**: Demonstrating how Synergetics provides a complete geometry that "Abrogates, or makes defunct, Goedel's Incompleteness Theorem"
+5. **Gödel discussion**: The source presents a philosophical claim about Synergetics and incompleteness. The software checks coordinate and visual behavior.
 
 ### Key Theoretical Claims (from Coughlin's paper)
 

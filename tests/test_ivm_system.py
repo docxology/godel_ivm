@@ -32,6 +32,7 @@ class TestIVMCoordinates(unittest.TestCase):
         self.assertIn('tetrahedron', self.ivm_coords.polyhedrons)
         self.assertIn('octahedron', self.ivm_coords.polyhedrons)
         self.assertIn('cube', self.ivm_coords.polyhedrons)
+        self.assertAlmostEqual(self.ivm_coords.constants['golden_ratio'], (1 + np.sqrt(5)) / 2)
 
     def test_tetrahedron_coordinates(self):
         """Test tetrahedron coordinate data"""
