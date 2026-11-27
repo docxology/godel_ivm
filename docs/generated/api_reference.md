@@ -4,13 +4,13 @@ This document provides comprehensive API documentation for all components of the
 
 ## 📋 Table of Contents
 
-- [IVMSystem](#ivmsystem)
-- [IVMCoordinates](#ivmcoordinates)
-- [IVMVisualizer](#ivmvisualizer)
-- [IVMConfig](#ivmconfig)
-- [Data Structures](#data-structures)
-- [Error Handling](#error-handling)
-- [Examples](#examples)
+- [IVMSystem](#-ivmsystem)
+- [IVMCoordinates](#-ivmcoordinates)
+- [IVMVisualizer](#-ivmvisualizer)
+- [IVMConfig](#%EF%B8%8F-ivmconfig)
+- [Data Structures](#%EF%B8%8F-data-structures)
+- [Error Handling](#-error-handling)
+- [Examples](#-examples)
 
 ## 🎯 IVMSystem
 
