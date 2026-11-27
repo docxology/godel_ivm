@@ -3,7 +3,7 @@
 - Run `run.py` from the repository root with the interpreter from the
   [installation guide](quickstart-current.md). This lets the loader
   find the `configs/` directory and the local `src/` package.
-- Run `python run.py list` to confirm the shape and its numeric
+- Run `.venv/bin/python run.py list` to confirm the shape and its numeric
   frequency. Check that the requested output file exists after plotting.
 - For file-only output, set `MPLBACKEND=Agg` and pass an explicit
   `--output` path whose parent directory exists.
