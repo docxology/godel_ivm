@@ -4,15 +4,15 @@ This comprehensive documentation covers all aspects of the Isotropic Vector Matr
 
 ## 📚 Table of Contents
 
-- [Overview](#overview)
-- [Mathematical Foundation](#mathematical-foundation)
-- [System Architecture](#system-architecture)
-- [API Reference](#api-reference)
-- [Usage Guide](#usage-guide)
-- [Examples](#examples)
-- [Performance](#performance)
-- [Troubleshooting](#troubleshooting)
-- [Development](#development)
+- [Overview](#-overview)
+- [Mathematical Foundation](#-mathematical-foundation)
+- [System Architecture](#%EF%B8%8F-system-architecture)
+- [API Reference](#-api-reference)
+- [Usage Guide](#-usage-guide)
+- [Examples](#-examples)
+- [Performance](#-performance)
+- [Troubleshooting](#-troubleshooting)
+- [Development](#%EF%B8%8F-development)
 
 ## 🎯 Overview
 
