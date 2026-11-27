@@ -51,7 +51,7 @@ This script provides unified access to all IVM system functionality:
   python run.py list                           # List available data
   python run.py plot tetrahedron 1             # Plot polyhedron
   python run.py animate tetrahedron 2          # Create animation
-  python run.py compare tetrahedron 1 cube 1   # Compare polyhedrons
+  python run.py compare --comparisons tetrahedron 1 cube 1  # Compare polyhedrons
         """
     )
 

@@ -103,19 +103,19 @@ def main():
         description="IVM Polyhedron Visualization System",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
-Examples:
-  python ivm_system.py plot tetrahedron 1
-  python ivm_system.py animate tetrahedron 2 --frames 60
-  python ivm_system.py compare tetrahedron 1 cube 1
-  python ivm_system.py docs
-  python ivm_system.py visualize                    # Create concept visualizations
-  python ivm_system.py animations                    # Create comprehensive animations
-  python ivm_system.py additional                    # Create additional visualizations
-  python ivm_system.py polyhedrons                   # Create all polyhedron plots
-  python ivm_system.py html                         # Create interactive HTML interface
-  python ivm_system.py comprehensive                 # Create complete output package
-  python ivm_system.py test
-  python ivm_system.py list
+Examples from the repository root:
+  python src/ivm_system.py plot tetrahedron 1
+  python src/ivm_system.py animate tetrahedron 2 --frames 60
+  python src/ivm_system.py compare --comparisons tetrahedron 1 cube 1
+  python src/ivm_system.py docs
+  python src/ivm_system.py visualize                    # Create concept visualizations
+  python src/ivm_system.py animations                    # Create comprehensive animations
+  python src/ivm_system.py additional                    # Create additional visualizations
+  python src/ivm_system.py polyhedrons                   # Create all polyhedron plots
+  python src/ivm_system.py html                         # Create interactive HTML interface
+  python src/ivm_system.py comprehensive                 # Create complete output package
+  python src/ivm_system.py test
+  python src/ivm_system.py list
         """
     )
 

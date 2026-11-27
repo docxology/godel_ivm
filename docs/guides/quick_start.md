@@ -75,7 +75,7 @@ python src/ivm_system.py plot tetrahedron 1
 python src/ivm_system.py animate tetrahedron 2
 
 # Compare polyhedrons
-python src/ivm_system.py compare tetrahedron 1 cube 1
+python src/ivm_system.py compare --comparisons tetrahedron 1 cube 1
 ```
 
 ### Python API
