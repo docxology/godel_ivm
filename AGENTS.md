@@ -1,5 +1,9 @@
 # IVM Polyhedron Visualization System - Attribution & Context
 
+For setup and tests, use the [package quickstart](docs/guides/quickstart-current.md).
+For manuscript changes, use the [source map](docs/manuscript/README.md) and
+[pinned reproduction guide](docs/reproduce.md).
+
 ## 📜 Original Source Material
 
 This software system implements the coordinate specifications from:

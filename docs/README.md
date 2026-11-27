@@ -6,7 +6,7 @@
 | [Troubleshooting](guides/troubleshooting.md) | Resolve imports, coordinate selection and saved plots. |
 | [Configuration API](api/config.md) | Coordinate configuration, constants, and output paths. |
 | [Coordinate reference](coordinates_index.md) | Supported shapes and frequency data. |
-| [Manuscript](manuscript/00_abstract.md) | Reproducible tetrahedron geometry and rendering check. |
+| [Manuscript source](manuscript/README.md) | Reproducible tetrahedron geometry and rendering check. |
 | [Manuscript build](reproduce.md) | Generate and validate PDF and HTML with the pinned Template. |
 
 See [the original coordinate notes](original/xyz_clean.md) for Noel
